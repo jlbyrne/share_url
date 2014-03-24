@@ -1,0 +1,17 @@
+---
+chdir: /home/ec2-user/share_url
+pid: /tmp/thin.pid
+environment: production
+port: 4567
+timeout: 5
+wait: 30
+log: log/thin.log
+max_conns: 1024
+max_persistent_conns: 100
+require: []
+user: ec2-user
+servers: 4
+daemonize: true
+onebyone: true
+threaded: true
+socket: /tmp/thin.sock
