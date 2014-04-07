@@ -26,9 +26,3 @@ APP_NAME = APP_ROOT.basename.to_s
 Dir[APP_ROOT.join('controllers', '*.rb')].each { |file| require file }
 Dir[APP_ROOT.join('helpers', '*.rb')].each { |file| require file }
 
-#setting up database and models
-# Log queries to STDOUT in development- this will show when
-# the app is accessing the database in the server logs
-if Sinatra::Application.development?
-  ActiveRecord::Base.logger = Logger.new(STDOUT)
-end
