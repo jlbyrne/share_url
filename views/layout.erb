@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="application.css">
+	<link href="http://fonts.googleapis.com/css?family=Nunito|Londrina+Outline" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="application.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="/application.js"></script>
-	<title>Create Custom Facebook Share Links</title>
+	<title>Custom Facebook Sharing</title>
+
+	<meta name="viewport" content="width=device-width">
 </head>
 
 <body>
+	<div class="header">
+		<div class="logo">
+			<a href="/"><img src="images/logo.png"></a>
+		</div>
+		<div class="nav-links">
+			<a href="/make_a_link">Make a Link!</a>
+			<a href="/help">Help</a>
+		</div>
+	</div>
 	<%= yield %>
 </body>
 

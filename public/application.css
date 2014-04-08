@@ -1,0 +1,140 @@
+body {
+	background-color: #4d4848;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #444444;
+	font-family: 'Nunito', sans-serif;
+}
+
+.header {
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+	height: 60px;
+	margin-bottom: 2%;	
+}
+
+.header a {
+	text-decoration: none;
+	color: #307a7a;
+	padding-right: 4%;
+}
+
+.logo {
+	display: inline-block;
+	width: 45%;
+	padding-left: 4%;
+}
+
+.logo a img {
+	padding-top: 5px;
+	height: 50px;
+}
+
+.nav-links {
+	text-align: right;
+	width: 45%;
+	display: inline-block;
+	padding-right: 4%;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+.form-explanation{
+	color: white;
+	text-align: left;
+	margin-left: 4%;
+}
+
+.form-container {
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+input {
+	background-color: rgba(255,255,255,0.8);
+	padding: 2%;
+	width: 90%;
+	max-width: 600px;
+	border-radius: 5px;
+	border: none;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.15em;
+	margin-bottom: 0.5%;
+	margin-top: 0.5%
+}
+
+/* cool CSS trick found at:  http://css-tricks.com/snippets/css/css-triangle/ */
+.arrow-right {
+	margin: 1%;
+	margin-left: 4%;
+	margin-right: 2.6%;
+	display: inline-block;
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid white;
+	cursor: pointer;
+}
+
+.arrow-down {
+	margin: 1%;
+	margin-left: 4%;
+	display: inline-block;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid white;
+	cursor: pointer;
+}
+
+input[type=submit] {
+	width: 94%;
+	background-color: #307a7a;
+	color: white;
+	margin-bottom: 2%;
+}
+
+.explainer {
+	margin: 2px auto;
+	background-color: #b6e1e1;
+	border-radius: 5px;
+	width: 90%;
+	padding: 2%;
+	display: none;
+}
+
+.advanced-options-toggle {
+	text-align: left;
+	color: white;
+	cursor: pointer;
+}
+
+.options-text {
+	display:inline-block;
+	vertical-align: top;
+	padding-top: 1%;
+}
+
+.advanced-options {
+	display: none;
+}
+
+.link {
+	display: none;
+	margin: 0 auto;
+	width: 94%;
+	max-width: 562px;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 5px;
+}
+
+.link p {
+	margin: 0;
+	padding: 4%;
+	word-wrap: break-word;
+}
