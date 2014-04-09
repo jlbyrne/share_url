@@ -4,21 +4,21 @@
 	<form method="post" action="/make_url">
 		<input type="text" name="link" placeholder="link (required)">
 		<p class="explainer">Put the link you would like to share here.</p>
-		<input type="text" name="picture_link" placeholder="picture URL">
-		<p class="explainer">Must be at least 200px by 200px.  If blank, the picture will default to the first picture on the linked page that is larger than 200px by 200px.</p>
+		<input type="text" name="picture_link" placeholder="link to picture">
+		<p class="explainer">Must be at least 200px by 200px.  If blank, the picture will default to the first picture on the linked page that is larger than 200px by 200px. <a href="http://photobucket.com/">http://photobucket.com/</a> and <a href="http://postimg.org/">http://postimg.org/</a> are good options for hosting pictures.</p>
 		<input type="text" name="name" placeholder="title">
-		<p class="explainer">This will be the title of the post.  If blank, it will default to the url of the linked page.</p>
+		<p class="explainer">This will be the title of the post.  If blank, it will default to the title of the linked page.</p>
+		<input type="text" name="caption" placeholder="caption">
+		<p class="explainer">This text will appear directly underneath your title. If blank, this area will be default to the URL of the linked page.</p>
 		<input type="textarea" name="description" placeholder="description">
 		<p class="explainer">This is the main block of text on the post. If blank, it will default to the first paragraph of the linked page.</p>
 		<div class="advanced-options-toggle">
 			<div class="arrow-right"></div><div class="options-text">Advanced Options</div>
 		</div>
 		<div class="advanced-options">
-			<input type="text" name="caption" placeholder="caption">
-			<p class="explainer">This text will appear directly underneath your title. If blank, this area will be empty.</p>
 			<input type="text" name="app_id" placeholder="App ID">
 			<p class="explainer">if you have a facebook app, put your app's id here.  If blank, ShareURL's app id will be used.</p>
-			<input type="text" name="redirect_uri" placeholder="Application URL">
+			<input type="text" name="redirect_uri" placeholder="Redirect URI">
 			<p class="explainer">if you have a facebook app, put your app's redirect uri here.  If blank, ShareURL's redirect uri will be used.</p>
 		</div>
 		<input type="submit" value="Create Link">
