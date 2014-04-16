@@ -19,6 +19,7 @@ post '/make_url' do
 	display = "page"
 
 	"https://www.facebook.com/dialog/feed?app_id=#{app_id}&display=#{display}&name=#{name}&caption=#{caption}&link=#{link}&picture=#{picture_link}&description=#{description}&redirect_uri=#{redirect_uri}"
+	"Coming Soon!"
 end
 
 get '/help' do 
