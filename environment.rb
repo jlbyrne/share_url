@@ -13,7 +13,6 @@ require 'logger'
 #gems for sinatra
 require 'sinatra'
 require 'sinatra/reloader' if development?
-require 'sinatra/activerecord'
 
 #modules/gems for webpages
 require 'erb'
