@@ -11,6 +11,4 @@ gem 'thin'
 gem 'shotgun'
 
 #testing stuff
-group :test do
-	gem 'rspec'
-end
+gem 'rspec'
