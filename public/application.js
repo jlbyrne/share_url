@@ -19,6 +19,7 @@ function displayLink() {
 	$("form").submit(function(e){
 		e.preventDefault();
 		$.post("/make_url", $("form").serialize(), function(data){
+			console.log(data);
 			$(".link p").html(data);
 			$(".link").slideDown();
 		});
