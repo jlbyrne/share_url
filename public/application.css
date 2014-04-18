@@ -72,16 +72,33 @@ button a {
 	color: white;
 }
 
-.below-fold-1 {
+.below-fold {
 	padding: 7%;
 	color: white;
+	text-align: center;
+}
+
+.below-fold img {
+	width: 95%;
+	max-width: 600px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.one {
 	background-color: #988e8e;
 }
 
-.below-fold-2 {
-	padding: 7%;
-	color: white;
+.two {
+	background-color: #655e5e;
+}
+
+.three {
 	background-color: #4d4848;
+}
+
+.three p {
+	font-size: 1.25em;
 }
 
 .form-explanation{
