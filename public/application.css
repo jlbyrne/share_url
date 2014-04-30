@@ -35,6 +35,13 @@ a {
 	height: 50px;
 }
 
+@media(max-width:450px){
+	.logo a img {
+		padding-top: 15px;
+		height: 25px;
+	}
+}
+
 .nav-links {
 	text-align: right;
 	width: 45%;
