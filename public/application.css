@@ -40,6 +40,10 @@ a {
 		padding-top: 15px;
 		height: 25px;
 	}
+
+	.nav-links {
+		font-size: .8em;
+	}
 }
 
 .nav-links {
